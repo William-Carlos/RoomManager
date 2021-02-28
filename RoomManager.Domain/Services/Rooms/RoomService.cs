@@ -8,11 +8,13 @@ namespace RoomManager.Domain.Services.Rooms
 {
     public class RoomService : IRoomService
     {
-        private readonly IRoomRepository _repository;
+        private readonly IPersonRepository _personRepository;
+        private readonly IRoomRepository _roomRepository;
 
-        public RoomService(IRoomRepository repository)
+        public RoomService(IPersonRepository personRepository, IRoomRepository roomRepository)
         {
-            _repository = repository;
+            _personRepository = personRepository;
+            _roomRepository = roomRepository;
         }
 
         public void Create(RoomModel request)
@@ -20,15 +22,15 @@ namespace RoomManager.Domain.Services.Rooms
             if (request.IsValid())
             {
                 var room = new Room(request.Name, request.Capacity);
-                _repository.Create(room);
+                _roomRepository.Create(room);
             }
         }
 
         public IList<RoomModel> GetAll()
         {
-            var people = _repository.GetAll();
+            var rooms = _roomRepository.GetAll();
 
-            return people.Select(x => new RoomModel { Name = x.Name, Capacity = x.Capacity }).ToList();
+            return rooms.Select(x => new RoomModel { Name = x.Name, Capacity = x.Capacity }).ToList();
         }
 
         public void Update(RoomModel request)
@@ -38,7 +40,7 @@ namespace RoomManager.Domain.Services.Rooms
                 return;
             }
 
-            var room = _repository.GetById((long)request.Id);
+            var room = _roomRepository.GetById((long)request.Id);
 
             if (room == null)
             {
@@ -47,7 +49,21 @@ namespace RoomManager.Domain.Services.Rooms
 
             room.Update(request);
 
-            _repository.Update(room);
+            _roomRepository.Update(room);
+        }
+
+        public RoomModel GetById(long id)
+        {
+            var room = _roomRepository.GetById(id);
+            var people = _personRepository.GetByCoffeeSpaceId(id);
+
+            var peopleFirstStep = people.Where(x => x.FirstStepRoomId == id).ToList();
+            var peopleSecondStep = people.Where(x => x.SecondStepRoomId == id).ToList();
+
+            var model = RoomModel.BuildModel(room);
+            model.SetPeople(peopleFirstStep, peopleSecondStep);
+
+            return model;
         }
     }
 }

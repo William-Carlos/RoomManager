@@ -7,5 +7,6 @@ namespace RoomManager.Domain.Services.People
     {
         void Create(PersonModel request);
         IList<PersonModel> GetAll();
+        PersonModel GetById(long id);
     }
 }

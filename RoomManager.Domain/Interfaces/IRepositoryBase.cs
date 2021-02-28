@@ -5,10 +5,10 @@ namespace RoomManager.Domain.Interfaces
 {
     public interface IRepositoryBase<T> where T : EntityBase
     {
-        public void Create(T entity);
-        public void Update(T entity);
-        public void Remove(T entity);
-        public IList<T> GetAll();
-        public T GetById(long id);
+        void Create(T entity);
+        void Update(T entity);
+        void Remove(T entity);
+        IList<T> GetAll();
+        T GetById(long id);
     }
 }

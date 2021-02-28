@@ -6,6 +6,8 @@ namespace RoomManager.Domain.Services.CoffeeSpaces
     public interface ICoffeeSpaceService
     {
         void Create(CoffeeSpaceModel request);
-        IList<CoffeeSpaceModel> GetAll();  
+        void Update(CoffeeSpaceModel request);
+        IList<CoffeeSpaceModel> GetAll();
+        CoffeeSpaceModel GetById(long id);
     }
 }

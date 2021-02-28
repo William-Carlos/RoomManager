@@ -1,5 +1,6 @@
 ﻿using RoomManager.Domain.Entities;
 using RoomManager.Domain.Validation;
+using System.Collections.Generic;
 
 namespace RoomManager.Domain.TransferObjects
 {
@@ -8,6 +9,9 @@ namespace RoomManager.Domain.TransferObjects
         public long? Id { get; set; }
         public string Name { get; set; }
         public int Capacity { get; set; }
+        public int Quantity { get; set; }
+        public IList<Person> FirstStepPeople { get; set; }
+        public IList<Person> SecondStepPeople { get; set; }
 
         public override bool IsValid()
         {
@@ -21,8 +25,15 @@ namespace RoomManager.Domain.TransferObjects
             {
                 Id = room.Id,
                 Name = room.Name,
-                Capacity = room.Capacity
+                Capacity = room.Capacity,
+                Quantity = room.Quantity
             };
+        }
+
+        public void SetPeople(IList<Person> firstStep, IList<Person> secondStep)
+        {
+            FirstStepPeople = firstStep;
+            SecondStepPeople = secondStep;
         }
     }
 }

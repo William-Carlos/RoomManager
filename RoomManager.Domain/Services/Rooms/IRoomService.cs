@@ -8,5 +8,6 @@ namespace RoomManager.Domain.Services.Rooms
         void Create(RoomModel request);
         void Update(RoomModel request);
         IList<RoomModel> GetAll();
+        RoomModel GetById(long id);
     }
 }

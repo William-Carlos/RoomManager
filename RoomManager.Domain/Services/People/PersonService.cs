@@ -1,5 +1,6 @@
 ﻿using RoomManager.Domain.Entities;
 using RoomManager.Domain.Interfaces;
+using RoomManager.Domain.Services.CoffeeSpaces;
 using RoomManager.Domain.Services.Rooms;
 using RoomManager.Domain.TransferObjects;
 using System.Collections.Generic;
@@ -10,13 +11,15 @@ namespace RoomManager.Domain.Services.People
     public class PersonService : IPersonService
     {
         private readonly ICoffeeSpaceRepository _coffeeSpaceRepository;
+        private readonly ICoffeeSpaceService _coffeeSpaceService;
         private readonly IPersonRepository _personRepository;
         private readonly IRoomRepository _roomRepository;
         private readonly IRoomService _roomService;
 
-        public PersonService(ICoffeeSpaceRepository coffeeSpaceRepository, IPersonRepository personRepository, IRoomRepository roomRepository, IRoomService roomService)
+        public PersonService(ICoffeeSpaceRepository coffeeSpaceRepository, ICoffeeSpaceService coffeeSpaceService, IPersonRepository personRepository, IRoomRepository roomRepository, IRoomService roomService)
         {
             _coffeeSpaceRepository = coffeeSpaceRepository;
+            _coffeeSpaceService = coffeeSpaceService;
             _personRepository = personRepository;
             _roomRepository = roomRepository;
             _roomService = roomService;
@@ -63,7 +66,16 @@ namespace RoomManager.Domain.Services.People
 
         private CoffeeSpace SelectCoffeeSpace()
         {
-            return new CoffeeSpace();
+            var coffeSpaces = _coffeeSpaceRepository.GetAll();
+
+            var min = coffeSpaces.Min(x => x.Quantity);
+            var spaceSelected = coffeSpaces.FirstOrDefault(x => x.Quantity == min);
+
+            spaceSelected.Increment();
+
+            _coffeeSpaceService.Update(CoffeeSpaceModel.BuildModel(spaceSelected));
+
+            return spaceSelected;
         }
 
         public IList<PersonModel> GetAll()

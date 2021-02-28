@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RoomManager.DataAccess.Context;
 
 namespace RoomManager.DataAccess.Migrations
 {
     [DbContext(typeof(ManagerRoomContext))]
-    partial class ManagerRoomContextModelSnapshot : ModelSnapshot
+    [Migration("20210228212458_Updated_Initial_Entities")]
+    partial class Updated_Initial_Entities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

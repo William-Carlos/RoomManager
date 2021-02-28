@@ -1,9 +1,12 @@
 ﻿using RoomManager.Domain.Entities;
+using System.Collections.Generic;
 
 namespace RoomManager.Domain.Interfaces
 {
     public interface IPersonRepository : IRepositoryBase<Person>
     {
-        public Person GetByIdWithRoomsAndSpaces(long id);
+        Person GetByIdWithRoomsAndSpaces(long id);
+        IList<Person> GetByRoomId(long roomId);
+        IList<Person> GetByCoffeeSpaceId(long coffeeSpaceId);
     }
 }

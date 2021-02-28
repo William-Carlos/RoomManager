@@ -9,6 +9,7 @@ namespace RoomManager.DataAccess.Mappings
         public void Configure(EntityTypeBuilder<CoffeeSpace> builder)
         {
             builder.Property(d => d.Name).HasColumnName("Name").IsRequired();
+            builder.Property(d => d.Quantity).HasColumnName("Quantity").IsRequired();
         }
     }
 }

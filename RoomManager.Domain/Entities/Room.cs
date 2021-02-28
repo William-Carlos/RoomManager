@@ -22,6 +22,7 @@ namespace RoomManager.Domain.Entities
         {
             Name = model.Name;
             Capacity = model.Capacity;
+            Quantity = model.Quantity;
         }
 
         public void Increment()
