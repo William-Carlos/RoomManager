@@ -1,0 +1,5 @@
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Web\obj\Debug\netcoreapp2.2\RoomManager.Web.csprojAssemblyReference.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Web\obj\Debug\netcoreapp2.2\RoomManager.Web.AssemblyInfoInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Web\obj\Debug\netcoreapp2.2\RoomManager.Web.AssemblyInfo.cs
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Web\obj\Debug\netcoreapp2.2\RoomManager.Web.csproj.CoreCompileInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Web\obj\Debug\netcoreapp2.2\RoomManager.Web.RazorAssemblyInfo.cache

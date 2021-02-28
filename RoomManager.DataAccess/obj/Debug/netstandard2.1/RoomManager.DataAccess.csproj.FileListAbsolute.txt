@@ -1,0 +1,12 @@
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\bin\Debug\netstandard2.1\RoomManager.DataAccess.deps.json
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\bin\Debug\netstandard2.1\RoomManager.DataAccess.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\bin\Debug\netstandard2.1\RoomManager.DataAccess.pdb
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\bin\Debug\netstandard2.1\RoomManager.Domain.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\bin\Debug\netstandard2.1\RoomManager.Domain.pdb
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.csprojAssemblyReference.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.AssemblyInfo.cs
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.csproj.CopyComplete
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.DataAccess\obj\Debug\netstandard2.1\RoomManager.DataAccess.pdb

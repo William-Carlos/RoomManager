@@ -1,0 +1,15 @@
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\bin\Debug\netcoreapp3.1\RoomManager.Forms.exe
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\bin\Debug\netcoreapp3.1\RoomManager.Forms.deps.json
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\bin\Debug\netcoreapp3.1\RoomManager.Forms.runtimeconfig.json
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\bin\Debug\netcoreapp3.1\RoomManager.Forms.runtimeconfig.dev.json
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\bin\Debug\netcoreapp3.1\RoomManager.Forms.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\bin\Debug\netcoreapp3.1\RoomManager.Forms.pdb
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.csprojAssemblyReference.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.Form1.resources
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.csproj.GenerateResource.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.AssemblyInfoInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.AssemblyInfo.cs
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.csproj.CoreCompileInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.pdb
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Forms\obj\Debug\netcoreapp3.1\RoomManager.Forms.genruntimeconfig.cache

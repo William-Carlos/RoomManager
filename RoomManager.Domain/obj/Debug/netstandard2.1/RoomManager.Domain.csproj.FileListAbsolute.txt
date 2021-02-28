@@ -1,0 +1,9 @@
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\bin\Debug\netstandard2.1\RoomManager.Domain.deps.json
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\bin\Debug\netstandard2.1\RoomManager.Domain.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\bin\Debug\netstandard2.1\RoomManager.Domain.pdb
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\obj\Debug\netstandard2.1\RoomManager.Domain.csprojAssemblyReference.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\obj\Debug\netstandard2.1\RoomManager.Domain.AssemblyInfoInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\obj\Debug\netstandard2.1\RoomManager.Domain.AssemblyInfo.cs
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\obj\Debug\netstandard2.1\RoomManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\obj\Debug\netstandard2.1\RoomManager.Domain.dll
+C:\Users\tobia\OneDrive\Área de Trabalho\Repositórios\VisualStudioProjects\RoomManager\RoomManager.Domain\obj\Debug\netstandard2.1\RoomManager.Domain.pdb
